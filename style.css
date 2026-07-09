@@ -79,3 +79,30 @@ header {
     border: none;
     cursor: pointer;
 }
+
+/* main section */
+.section {
+    background-color: #ffffff;
+    padding: 60px 24px;
+    width: 1440px;
+    height: 879px;
+}
+
+.title {
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 580px;
+}
+
+.cardSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    width: 1321px;
+    height: 1080;
+    margin-left: 260px;
+
+}
+
