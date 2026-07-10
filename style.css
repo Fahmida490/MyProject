@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -83,9 +84,10 @@ header {
 /* main section */
 .section {
     background-color: #ffffff;
+    max-width: 1440px;
+    height: 1279px;
+    margin: 0 auto;
     padding: 60px 24px;
-    width: 1440px;
-    height: 879px;
 }
 
 .title {
@@ -93,16 +95,176 @@ header {
     font-size: 56px;
     font-weight: bold;
     margin-bottom: 40px;
-    margin-left: 580px;
 }
 
 .cardSection {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-    width: 1321px;
-    height: 1080;
-    margin-left: 260px;
-
+    gap: 40px;
 }
 
+.card {
+    border-radius: 20px;
+    border: 1px solid #E5E7EB;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 324px;
+    object-fit: cover;
+    display: block;
+}
+.cardContent {
+    width: 642px;
+    height: 131px;
+    background-color: #FFFFFF;
+    padding: 24px 24px;
+}
+.cardContent span {
+    color: #2563EB;
+    font-size: 14px;
+}
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+.profession {
+    color: #575757;
+    font-size: 15px;
+    margin-top: 8px;
+}
+/* section2 */
+.section2 {
+    max-width: 1551px;
+    height: 718px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+.headingP {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 48px;
+    color: #575757;
+}
+.mainCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    text-align: left;
+    align-items: start;
+}
+
+.commonCard {
+    background-color: #ffffff;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 32px 28px;
+}
+.firstItem {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #6B7280;
+}
+
+.commonCard h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #0D1B2A;
+    margin-top: 8px;
+}
+
+.secondItem {
+    font-size: 13px;
+    color: #888888;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin-bottom: 20px;
+}
+
+.listStart {
+    list-style: none;
+    margin-bottom: 28px;
+}
+
+.listStart li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.listStart li::before {
+    content: ".";
+    color: #2563EB;
+    position: absolute;
+    left: 0;
+    font-size: 25px;
+    line-height: 1.5px;
+}
+
+.specialCard{
+    background-color: #0D1B2A;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 42px 28px;
+}
+
+.specialCard .firstItem {
+    color: #93C5FD;
+}
+.specialCard h1 {
+    color: #ffffff;
+}
+
+.specialCard hr {
+    border-top: 1px solid #888888;
+}
+
+.specialCard .listStart li {
+    color: #E5E7EB;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn1 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1D4ED8;
+    background-color: white;
+    width: 100%;
+    padding: 12px 0;
+    border: 1px solid #1D4ED8;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0D1B2A;
+    background-color: white;
+    width: 100%;
+    padding: 12px 0;
+    border: 1px solid #0D1B2A;
+    border-radius: 8px;
+    cursor: pointer;
+}
