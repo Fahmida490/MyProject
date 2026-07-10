@@ -268,3 +268,230 @@ hr {
     border-radius: 8px;
     cursor: pointer;
 }
+
+  /*placeholder section*/
+.cfp-section {
+    padding: 80px 0 70px;
+    background: #ffffff;
+    border-bottom: 1px solid #e9edf2;
+    max-width: 1551px;
+    height: 718px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cfp-section .cfp-tag {
+    display: inline-block;
+    background: #fef3c7;
+    color: #b45309;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    padding: 5px 20px;
+    border-radius: 40px;
+    margin-bottom: 14px;
+}
+.cfp-section h2 {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #0b1120;
+    margin-bottom: 14px;
+}
+.cfp-section .cfp-subhead {
+    font-size: 1.15rem;
+    color: #475569;
+    max-width: 1551px;
+    padding: 20px;
+    margin-top: 8px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+/* placeholder card grid */
+.cfp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+}
+
+.cfp-card {
+    background: #f8fafc;
+    border-radius: 28px;
+    padding: 32px 24px 28px;
+    border: 2px dashed #d4dce8;
+    transition: all 0.25s ease;
+    text-align: center;
+    position: relative;
+}
+.cfp-card:hover {
+    border-color: #2563eb;
+    background: #ffffff;
+    box-shadow: 0 12px 28px -10px rgba(37, 99, 235, 0.12);
+}
+.cfp-card .cfp-icon {
+    font-size: 2.8rem;
+    color: #2563eb;
+    background: #dbeafe;
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    border-radius: 60px;
+    margin: 0 auto 18px;
+}
+.cfp-card h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #0b1120;
+}
+.cfp-card p {
+    color: #475569;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+.cfp-card .placeholder-badge {
+    display: inline-block;
+    margin-top: 18px;
+    background: #e9edf2;
+    padding: 4px 18px;
+    border-radius: 40px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #334155;
+    letter-spacing: 0.3px;
+    border: 1px solid #d4dce8;
+}
+.cfp-card:hover .placeholder-badge {
+    background: #dbeafe;
+    border-color: #93b4f0;
+    color: #1e4ab0;
+}
+
+/* placeholder note */
+.cfp-note {
+    margin-top: 44px;
+    padding: 20px 28px;
+    background: #f1f5f9;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    border: 1px solid #e2e8f0;
+}
+.cfp-note .note-text {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #1e293b;
+}
+.cfp-note .note-text i {
+    font-size: 1.6rem;
+    color: #2563eb;
+}
+.cfp-note .note-text span {
+    font-weight: 500;
+}
+.cfp-note .note-cta {
+    background: #2563eb;
+    color: white;
+    padding: 10px 28px;
+    border-radius: 60px;
+    font-weight: 600;
+    text-decoration: none;
+    /*transition: 0.2s;*/
+    font-size: 0.95rem;
+}
+.cfp-note .note-cta:hover {
+    background: #1d4ed8;
+}
+
+
+/* footer section */
+
+.footer {
+    background: #0b1120;
+    color: #e8edf5;
+    padding: 2.5rem 2rem 1.8rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem 2rem;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-logo i {
+    font-size: 2rem;
+    color: #5b8def;
+}
+
+.footer-logo span {
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+.footer-logo .logo-accent {
+    color: #5b8def;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.footer-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    background: #1f2a41;
+    color: #d0d9eb;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    background: #5b8def;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.footer-divider {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(90deg, #2a3a5a, #5b8def, #2a3a5a);
+    width: 100%;
+    margin: 0.2rem 0 0.2rem;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #9aaec9;
+    letter-spacing: 0.3px;
+}
+
