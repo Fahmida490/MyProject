@@ -183,3 +183,4 @@ This is the **only** section where AI usage is expected and encouraged.
 
 **Page looks fine locally but broken on GitHub Pages?**
 - Check all file/folder names for typos and casing mismatches. Windows ignores case, but GitHub Pages (Linux) does not.
+
